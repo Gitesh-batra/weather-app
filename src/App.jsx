@@ -4,7 +4,7 @@ import LeftPart from "./components/LeftPart";
 import getFormattedWeatherData from "./components/services/weatherService";
 import { useEffect, useState } from "react";
 function App() {
-  const [query, setQuery] = useState({ q: "london " });
+  const [query, setQuery] = useState({ q: "london" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
@@ -31,12 +31,12 @@ function App() {
       {weather && (
         <div className="component">
           <div>
-          <LeftPart className="left" />
+          <LeftPart className="left" weather={weather} />
           </div>
           <div>
-          <RightPart className="right" />
+          <RightPart className="right" weather={weather} />
           </div>
-        </div>
+         </div>
       )}
     </div>
   );

@@ -11,6 +11,10 @@ background-repeat: no-repeat;
  /* background-image: linear-gradient(to bottom right, red, yellow); */
  
 }
+
+.component{
+  display: flex;
+}
 .video{
   position: fixed;
   top: 0;
