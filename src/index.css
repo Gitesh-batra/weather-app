@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  /* background-image: url(/public/images/night2.jpg); */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  color: #fff;
+  transition: 500ms;
+  opacity: 1;
+  /* font-family: ; */
+
 }
 
 code {
