@@ -97,5 +97,12 @@ h1.name{
     .cityTime{
    top: 30%;
     left: 0%;
+    position: relative;
+    padding: 1em 2em;
+    flex-direction: column;
+    overflow: auto;
+    border-radius: 0;
+    z-index: 1000;
+    width: 100%;
 }
   }
